@@ -1,7 +1,6 @@
 import foodImage from "./img/food_header.jpg"
 
-export const loadPage = function() {
-    console.log("work it");
+export const loadHomepage = function() {
     const content = document.querySelector("#content");
 
     const headline = document.createElement("h1");
